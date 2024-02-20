@@ -1,0 +1,22 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* HEADER */
+.header-conteiner{
+    width: 100%;
+    background-color: #edf2f7;
+    text-align: center;
+    
+}
+/* MAIN */
+.main-conteiner{
+    width: 300px;
+    height: 1000px;
+    background-color: #edf2f7;
+    
+   
+        
+}
