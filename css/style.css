@@ -13,10 +13,11 @@
 }
 /* MAIN */
 .main-conteiner{
-    width: 300px;
-    height: 1000px;
+    width: 700px;
+    height: 800px;
     background-color: #edf2f7;
-    
-   
+    margin: auto;
+   margin-top: 50px;
+   border-radius: 10px;
         
 }
