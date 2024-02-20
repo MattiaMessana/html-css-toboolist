@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* HEADER */
 .header-conteiner {
     width: 100%;
@@ -66,12 +67,15 @@ ul {
     height: 30px;
     width: 600px;
     padding: 0px 20px;
-    margin:0;
+    margin: 0;
     box-shadow: 0px 10px 20px lightgray;
     border-radius: 5px;
     background-color: white;
+    margin-top: 5px;
+
 }
-.check{
+
+.check {
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -82,14 +86,57 @@ ul {
     vertical-align: middle;
     background-color: green;
     color: white;
-    
 }
-.tag{
+
+.cross {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    line-height: 15px;
+    text-align: center;
+    font-size: 10px;
+    vertical-align: middle;
+    background-color: red;
+    color: white;
+}
+
+.tag {
     border-radius: 25px;
     padding: 5px 10px;
     font-size: 13px;
 }
-.blu{
+
+.blu {
     background-color: blue;
+    color: white;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.purple {
+    background-color: purple;
+    color: white;
+}
+
+.green {
+    background-color: #26c4a9;
+    color: white;
+}
+
+.orange {
+    background-color: orange;
+    color: white;
+}
+
+.pink {
+    background-color: #ec4a9d;
+    color: white;
+}
+
+.green2 {
+    background-color: #a3d116;
     color: white;
 }
