@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+/*COMANDI IN CUMUNE CON DIVERSI TAG */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* /COMMON */
+
 /* HEADER */
 .header-conteiner {
     width: 100%;
@@ -19,18 +27,15 @@
     width: 700px;
     height: 650px;
     background-color: #edf2f7;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 50px;
     border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
     box-shadow: 10px 10px 10px lightgray;
-
 }
 
 .search-conteiner {
     text-align: center;
     margin-bottom: 30px;
-
 }
 
 .search-box {
@@ -84,8 +89,9 @@ ul {
     text-align: center;
     font-size: 10px;
     vertical-align: middle;
-    background-color: green;
-    color: white;
+    background-color: white;
+    color: green;
+    border: 1px solid;
 }
 
 .cross {
@@ -96,9 +102,10 @@ ul {
     line-height: 15px;
     text-align: center;
     font-size: 10px;
+    border: 1px solid;
     vertical-align: middle;
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: red;
 }
 
 .tag {
